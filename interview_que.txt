@@ -1,0 +1,155 @@
+Que1.What are the datatypes available in Python ?
+Following are the in-built datatypes in Python programming :
+
+Ans => Boolean
+      Numeric
+      int
+      float
+      long
+      complex
+      String
+      List
+      Tuple
+      Set
+      Dictionary
+
+
+Que2.What are the mutable builtin datatypes available ?
+Mutable datatype are those
+
+Ans => List
+     Sets
+     Dictionaries
+
+
+Que3.What are the immutable builtin datatypes available ?
+Immutable datatypes are those
+
+Ans=>Strings
+    Tuples
+    Numbers
+
+
+Que4. What immutable mean and what three types of python core data types are considered immutable?
+
+Ans=> An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples are immutable in python>
+
+
+Que5. what are tuples?
+
+Ans=> Tuples are the sequence data type with immutable values in python. Tuples are used to store multiple items in single variable.
+
+
+Que6. Differentiate between list and tuple?
+
+Ans => List
+.List are mutable data type
+.List consume more memory
+.The list is better for performing operations,such as insertion and deletion
+.Impliction of iteration is time consuming
+
+  Tuples
+.Tuples are immutable data type
+.Tuples consume less memory as compared to list
+.Tuple data type is appropriate for accessing the elements
+.Impliction of iteration is comparatively faster.
+
+
+Que7. What is for loop in python?
+
+Ans => A for loop in python requires at least two variables to work. The first is the iterable object such as a list,tuple or a string.And second is the variable
+      to store the successive vakues from the sequence in the loop.
+
+
+Que8. How to use a break statement in python for loops?
+
+Ans => An break statement can be used to terminate a loop. It is often used when the programmer needs to stop iterating through the data and
+ instead go back to checking for other condition.
+
+code example for break statement:
+animals = ["dog","cat","sheep","tiger"]
+for i in animals:
+   print(x)
+if i == "tiger":
+   break
+
+
+Que9. What is the difference between a for loop and a while loop?
+
+Ans => A for loop is typically used when you know exactly how many times the loop needss to be repeated. A while loop is typically used when you
+     don't know how many times the loop needs to be repeated.
+     A while loop repeats as long as its condition is true. For example, if a while loop says "while x == 5",
+     then the line will execute as long as x equals five.
+
+
+Que10. What is the use of self in python?
+
+Ans => Self is used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python.
+     It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. 
+ 
+
+Que11. What is the syntax for Python If statement ?
+
+Ans => Python If statement contains if keyword, condition followed by colon symbol (:), and then the statements of if block with indentation.
+
+if condition:
+    statement1
+    statement2
+    statementN
+Condition should evaluate to a boolean value (true or false).
+
+
+Que12. What is Elif programming?
+Ans => The elif keyword is used in conditional statements (if statements), and is short for else if.
+
+
+Que13. How do you call a function in if condition Python?
+Ans => To call a function, you have to write the function name followed by parenthesis containing the parameters you want to pass to the method
+
+
+Que14. What are the 3 types of Python conditional statements?
+Ans => Python provides four conditional statements.In Python we can achieve decision making by using the following statements:
+
+if statements.
+if-else statements.
+elif statements.
+Nested if and if-else statements.
+elif ladder.
+
+
+Que15. What == means in Python?
+Ans => The == operator compares the value or equality of two objects, whereas the Python is operator checks whether two variables point to the same object in memory. 
+       In the vast majority of cases, this means you should use the equality operators == and !=
+
+
+Que16. Write a program to check whether a number is divisible by 7 or not.
+Ans => num = int(input("Enter your age"))
+       if num % 7 == 0 :
+         print("number is divisible")
+       else:
+          print("number is not divisible")
+
+
+Que17. What is boolean in python?
+Ans => Boolean is one of the built- in data type in python, it mainly contains two values, and they are true or false.
+       In python bool() is the method used to convert a value toa boolean value.
+
+
+Que18. What are the different types of operators in python?
+Ans => In python there are variety of operators they are as follows:
+
+      Arithmetic operator
+      Assignment operator
+      Logical operator
+      Membership operator
+      Identity operator
+      Bitwise operator
+
+
+Que19. What happens when a function doesn't have a return statement? Is it valid in python?
+Ans => yes, it is valid. The function will then return a None object.
+
+
+Que20. What is the difference between remove() function and del() function?
+Ans => The user can remove() function to delete a specific object in the list.
+
